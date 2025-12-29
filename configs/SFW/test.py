@@ -61,8 +61,6 @@ log_level = 'INFO'
 
 log_processor = dict(type='LogProcessor', window_size=100, by_epoch=False)
 
-# load_from = './work_dirs/fhw-origin/20250914_183131/best_PSNR_iter_12000.pth'
-
 resume = False
 
 vis_backends = [
@@ -98,44 +96,6 @@ test_pipeline = [
     dict(type='PackInputs'),
 ]
 
-uw_data_root = './datasets'
-
-# for_s1000 = '/datafile/lcf_data/new_uw_testing/for_s1000'
-
-uw_dataloader = dict(
-    num_workers=4,
-    persistent_workers=False,
-    drop_last=False,
-    sampler=dict(type='DefaultSampler', shuffle=False),
-    dataset=dict(
-        type='BasicImageDataset',
-        metainfo=dict(dataset_type='real', task_name='test'),
-        data_root='E:/experiment/data256',
-        data_prefix=dict(img='u45', gt='u45'),
-        pipeline=[
-            dict(
-                type='LoadImageFromFile',
-                key='img',
-                color_type='color',
-                channel_order='rgb'),
-            dict(
-                type='LoadImageFromFile',
-                key='gt',
-                color_type='color',
-                channel_order='rgb'),
-            dict(
-                type='Resize',
-                keys=['img', 'gt'],
-                scale=(256, 256)),
-            dict(type='PackInputs'),
-        ]))
-
-uw_evaluator = dict(
-    type='Evaluator', metrics=[
-        dict(type='PSNR'),
-        dict(type='SSIM'),
-    ])
-
 test_cfg = dict(type='MultiTestLoop')
 
 test_dataloader = [
@@ -147,7 +107,9 @@ test_dataloader = [
         dataset=dict(
             type='BasicImageDataset',
             metainfo=dict(dataset_type='real', task_name='test'),
-            data_root='./datasets',
+            
+            data_root='put your data path',
+            
             data_prefix=dict(img='c60', gt='c60'),
             pipeline=[
                 dict(
