@@ -69,7 +69,7 @@ from .ttsr import LTE, TTSR, SearchTransformer, TTSRDiscriminator, TTSRNet
 from .vico import ViCo
 from .wgan_gp import WGANGP
 from .fhw import FCNet, fheNet, Net, blockattNet, woemaNet, wofftNet, woaxisNet, wohwdNet, FCNet2, mynet, mynetnone
-from .SFW import SFWnet, Nocoda, Nofde, Norefine, Baseline, WDM, Dskip, SFWdiff
+from .SFW import SFWnet
 
 __all__ = [
     'AOTEncoderDecoder', 'AOTBlockNeck', 'AOTInpaintor',
@@ -102,5 +102,5 @@ __all__ = [
     'StableDiffusionInpaint', 'ViCo', 'FastComposer', 'AnimateDiff',
     'UNet3DConditionMotionModel', 'StableDiffusionXL', 'fheNet', 'Net', 'blockattNet', 'woemaNet', 'wofftNet',
     'woaxisNet', 'wohwdNet', 'FCNet', 'FCNet2', 'mynet', 'mynetnone',
-    'SFWnet', 'Nocoda', 'Nofde', 'Norefine', 'Baseline', 'WDM', 'Dskip', 'SFWdiff',
+    'SFWnet',
 ]
