@@ -22,7 +22,7 @@ class CoDA(nn.Module):
             layerscale_init: float = 0.1,
     ):
         super().__init__()
-        assert kernel_size % 2 == 1, "kernel_size 需为奇数，便于对齐（padding 对称）"
+        assert kernel_size % 2 == 1, "kernel_size // 2 == 1"
         self.in_channels = in_channels
         self.reduction = reduction
         self.mid_channels = max(8, in_channels // reduction)
