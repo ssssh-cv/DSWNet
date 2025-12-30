@@ -12,8 +12,6 @@ Here is the key code:
     ├── ...
     ├── mmagic
     │   ├── models
-    │   │   ├── base_models
-    │   │   │   ├── base_uw_model.py
     │   │   ├── editors
     │   │   │   ├── SFW
     │   │   │   │   ├── sfw.py
@@ -27,8 +25,6 @@ Here is the key code:
     ├── ...
     └── ...
     
-
-You just need to put or replace the code I provided in the corresponding folders.
 
 
 ## Data
