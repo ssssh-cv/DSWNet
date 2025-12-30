@@ -11,6 +11,10 @@ from pytorch_wavelets import DWTForward, DWTInverse
 from mmagic.registry import MODELS
 
 
+"""
+The complete code will be provided after the paper is accepted.
+"""
+
 class CoDA(nn.Module):   ## HDAM
     def __init__(
             self,
