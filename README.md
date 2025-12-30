@@ -1,5 +1,5 @@
 ## Results of our method
-<img src="./results.png" width = "800" height = "400" div align=center />
+<img src="./results.png" width = "800" height = "820" div align=center />
 
 ## Introduction
 This project is based on MMagic, an open-source tool from OpenMMLab. For details, please see https://github.com/open-mmlab/mmagic.
