@@ -14,7 +14,7 @@ Here is the key code:
     │   ├── models
     │   │   ├── editors
     │   │   │   ├── SFW
-    │   │   │   │   ├── sfw.py
+    │   │   │   │   ├── sfw.py **(The complete code will be provided after the paper is accepted.)**
     │   │   │   │   ├── __init__.py
     │   │   │   ├── __init__.py
     │   │   ├── losses
