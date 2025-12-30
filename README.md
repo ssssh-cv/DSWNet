@@ -15,6 +15,9 @@ Here is the key code:
     ├── ...
     ├── mmagic
     │   ├── models
+    │   │   ├── __init__.py
+    │   │   ├── base_models
+    │   │   │   ├── base_uw_model.py
     │   │   ├── editors
     │   │   │   ├── SFW
     │   │   │   │   ├── sfw.py (The complete code will be provided after the paper is accepted.)
