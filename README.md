@@ -12,23 +12,16 @@ This repository includes code for the following paper:
 <p align="middle">
   <img src="./overall.png">
 </p>
-<p align="middle">
-  <img src="./results.png">
-</p>
+
 
 ## Results of our method
 <p align="middle">
+  <img src="./results.png">
+</p>
+<p align="middle">
   <img src="./r90.png">
 </p>
-<p align="middle">
-  <img src="./c60.png">
-</p>
-<p align="middle">
-  <img src="./u45.png">
-</p>
-<p align="middle">
-  <img src="./euvp330.png">
-</p>
+
 
 ## Introduction
 This project is based on MMagic, an open-source tool from OpenMMLab. For details, please see https://github.com/open-mmlab/mmagic.
@@ -72,3 +65,19 @@ The dataset can be stored anywhere. During training, only the path in the config
 
 Training and testing commands can be viewed at the MMagic’s documentation "https://mmagic.readthedocs.io/en/latest/".
 
+# Citation
+👉 If our work is helpful for your research, please consider citing:
+```
+@article{SUN2026116506,
+title = {DSW-Net: A dual-skip connection wavelet network for underwater image enhancement},
+journal = {Knowledge-Based Systems},
+volume = {349},
+pages = {116506},
+year = {2026},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2026.116506},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705126012323},
+author = {Hui Sun and Xin Shu and Qiang Qian and Changbin Shao and Zhibin Xie},
+keywords = {Underwater image enhancement, Wavelet transform, Feature decoupling, Dual-skip connection, Hybrid-domain attention},
+}
+```
