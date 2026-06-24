@@ -13,7 +13,7 @@ This repository includes code for the following paper:
   <img src="./overall.png">
 </p>
 <p align="middle">
-  <img src="./result.png">
+  <img src="./results.png">
 </p>
 
 ## Results of our method
