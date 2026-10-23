@@ -26,6 +26,7 @@ This repository includes code for the following paper:
 ## Introduction
 This project is based on MMagic, an open-source tool from OpenMMLab. For details, please see https://github.com/open-mmlab/mmagic.
 You need to download the entire project here and then replace our code into the project following the structure below. 
+
 Tips: Make sure to update all the __init__.py files accordingly.
 
 Here is the key code:
@@ -66,6 +67,8 @@ The dataset can be stored anywhere. During training, only the path in the config
 ## Training and Testing
 
 Training and testing commands can be viewed at the MMagic’s documentation "https://mmagic.readthedocs.io/en/latest/".
+
+Tips: If you want to get the code running, you might need to run the command 'pip install -e .' before running it.
 
 # Citation
 👉 If our work is helpful for your research, please consider citing:
