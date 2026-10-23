@@ -25,6 +25,8 @@ This repository includes code for the following paper:
 
 ## Introduction
 This project is based on MMagic, an open-source tool from OpenMMLab. For details, please see https://github.com/open-mmlab/mmagic.
+You need to download the entire project here and then replace our code into the project following the structure below. 
+Tips: Make sure to update all the __init__.py files accordingly.
 
 Here is the key code:
 
@@ -32,8 +34,8 @@ Here is the key code:
     ├── ...
     ├── configs
     │   ├── SFW
-    │   │   ├── sfw.py
-    │   │   ├── test.py
+    │   │   ├── sfw.py (train)
+    │   │   ├── test.py (test)
     ├── ...
     ├── mmagic
     │   ├── models
@@ -42,7 +44,7 @@ Here is the key code:
     │   │   │   ├── base_uw_model.py
     │   │   ├── editors
     │   │   │   ├── SFW
-    │   │   │   │   ├── sfw.py (The complete code will be provided after the paper is accepted.)
+    │   │   │   │   ├── sfw.py (Network)
     │   │   │   │   ├── __init__.py
     │   │   │   ├── __init__.py
     │   │   ├── losses
